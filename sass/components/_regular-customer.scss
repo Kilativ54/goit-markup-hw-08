@@ -1,0 +1,40 @@
+.our-work__customer {
+	display: flex;
+	list-style-type: none;
+ }
+ .customer__item {
+ }
+ .customer__item:not(:last-child) {
+	margin-right: 30px;
+ }
+ 
+ .container.customer-div {
+	padding-top: 94px;
+	padding-bottom: 94px;
+ }
+ 
+ .our-work__tytle.tytle-costomer {
+	margin-bottom: 50px;
+ }
+ 
+ .customer__icon {
+	fill: currentColor;
+ }
+ 
+ .customer__link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 170px;
+	height: 92px;
+	border: 1px solid #afb1b8;
+	border-radius: 4px;
+	color: rgba(175, 177, 184, 1);
+ }
+ 
+ .customer__item > .customer__link{
+	&:hover,&:focus{
+		color: var(--button-color);
+		border-color: var(--button-color);
+	}
+ }

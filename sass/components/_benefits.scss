@@ -1,0 +1,15 @@
+.benefits {
+	padding-top: 94px;
+	padding-bottom: 94px;
+ }
+ .container-benefits > .nav-main__ul,.base-ul {
+	display: flex;
+ }
+ 
+ .nav-main__ul,.base-ul > .atim:not(:last-child) {
+	margin-right: 30px;
+ }
+ 
+ .nav-main__ul,.base-ul > .atim {
+	width: 270px;
+ }

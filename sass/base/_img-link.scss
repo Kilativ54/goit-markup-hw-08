@@ -1,0 +1,28 @@
+.img {
+	display: block;
+	width: 100%;
+	height: auto;
+ }
+ .text-port {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 24px;
+	padding-right: 24px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #eeeeee;
+	background: #ffffff;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #eeeeee;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #eeeeee;
+ }
+ 
+ .link {
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+	  background 250ms cubic-bezier(0.4, 0, 0.2, 1),
+	  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+	  border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }
