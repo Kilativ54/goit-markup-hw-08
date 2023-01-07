@@ -4,13 +4,6 @@
   --tytle-color:#212121;
 }
 
-body {
-  margin: 0;
-  font-family: "Roboto", Sans-serif;
-  background: #FFFFFF;
-  color: var(--brand-color);
-}
-
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -33,6 +26,13 @@ ul {
   margin-bottom: 0;
   margin-top: 0;
   padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", Sans-serif;
+  background: #FFFFFF;
+  color: var(--brand-color);
 }
 
 header {
@@ -411,8 +411,7 @@ header {
   cursor: pointer;
 }
 
-.button:focus,
-.button:hover {
+.button:hover, .button:focus {
   background: #f5f4fa;
   color: var(--button-color);
 }
@@ -501,9 +500,15 @@ header {
 }
 
 .our-team {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background: #f5f4fa;
+}
+@media screen and (min-width: 1200px) {
+  .our-team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .atim__tytle {
@@ -524,12 +529,19 @@ header {
 
 .our-work__tytle,
 .team {
-  margin-bottom: 50px;
-  font-size: 36px;
+  margin-bottom: 30px;
+  font-size: 28px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--tytle-color);
+}
+@media screen and (min-width: 1200px) {
+  .our-work__tytle,
+.team {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
 }
 
 .team-name {
@@ -551,14 +563,22 @@ header {
 }
 
 .nav-ul-team {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   list-style-type: none;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .nav-ul-team {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 .nav-ul-team > .item:not(:last-child) {
-  margin-right: 30px;
+  margin-bottom: 30px;
 }
 
 .nav-ul-team > .item {
@@ -567,7 +587,21 @@ header {
   background: #ffffff;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
-  padding-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .nav-ul-team > .item {
+    width: calc((100% - 60px) / 2);
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .nav-ul-team > .item {
+    width: calc((100% - 120px) / 4);
+  }
+  .nav-ul-team > .item:first-child {
+    margin-left: 0;
+  }
 }
 
 .nav-ul-team .social-item {
@@ -612,8 +646,7 @@ header {
   fill: currentColor;
 }
 
-.nav-ul-team .social-link:hover,
-.nav-ul-team .social-link:focus {
+.nav-ul-team .social-link:hover, .nav-ul-team .social-link:focus {
   background: #2196f3;
   color: rgb(255, 255, 255);
 }
@@ -652,15 +685,14 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 170px;
+  width: 100%;
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   color: rgb(175, 177, 184);
 }
 
-.customer__item > .customer__link:focus,
-.customer__item > .customer__link:hover {
+.customer__item > .customer__link:hover, .customer__item > .customer__link:focus {
   color: var(--button-color);
   border-color: var(--button-color);
 }
@@ -703,8 +735,7 @@ header {
   padding: 6px 25px;
 }
 
-.button-secondary:focus,
-.button-secondary:hover {
+.button-secondary:focus, .button-secondary:hover {
   background: var(--button-color);
   color: #ffffff;
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -763,8 +794,7 @@ a {
   margin-bottom: 0;
 }
 
-.item > .card-portfolio:focus,
-.item > .card-portfolio > :hover {
+.item > .card-portfolio:hover, .item > .card-portfolio:focus {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -820,11 +850,35 @@ a {
 
 .container,
 .foot-together {
-  width: 1200px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
+}
+@media screen and (min-widht: 480px) {
+  .container,
+.foot-together {
+    max-width: 450px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container,
+.foot-together {
+    max-width: 768px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container,
+.foot-together {
+    max-width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
 }
 
 .img {
