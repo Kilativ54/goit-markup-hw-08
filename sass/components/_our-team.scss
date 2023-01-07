@@ -19,8 +19,7 @@
 	letter-spacing: 0.03em;
  }
  .our-work__tytle,
- .base-tytle,
- .our-team__tytle {
+ .team {
 	margin-bottom: 50px;
 	font-size: 36px;
 	line-height: 1.17;
@@ -51,7 +50,7 @@
 	list-style-type: none;
  }
  
- .nav-ul-team > .team__item:not(:last-child) {
+ .nav-ul-team > .item:not(:last-child) {
 	margin-right: 30px;
  }
  
