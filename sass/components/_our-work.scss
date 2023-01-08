@@ -1,9 +1,15 @@
 .nav-main__ul.work {
 	display: flex;
+	justify-content: center;
+	width: 100%;
  }
  
  .our-work {
 	padding-bottom: 94px;
+	display: none;
+	@media screen and (min-width: 1200px){
+	display: block;
+	 } 
  }
  
  .nav-main__ul.work > .item:not(:last-child) {

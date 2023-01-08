@@ -1,12 +1,18 @@
 .benefits {
 	padding-top: 60px;
 	padding-bottom: 60px;
+	@media screen and (min-width: 1200px){
+	padding-top: 94px;
+	padding-bottom: 94px;
+		 }
+
  }
  .container-benefits > .nav-main__ul {
 	display: block;
 	@media screen and (min-width: 768px){
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 	 }
 	 }
  
@@ -18,8 +24,14 @@
 	width: 100% ;
 	@media screen and (min-width: 768px){
 		width: calc((100% - 60px) / 2);
-		margin-left:30px;
-		margin-bottom:30px;
+				margin-bottom:30px;
+				margin-left:30px;
+		&:nth-child(1){
+			margin-left: 0;
+		};
+		&:nth-child(3){
+			margin-left: 0;
+		};
 		 }
 		 @media screen and (min-width: 1200px){
 			width: calc((100% - 120px) / 4);
