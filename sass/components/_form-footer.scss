@@ -1,7 +1,9 @@
 .foot-input-line {
-	width: 358px;
+	display: block;
+	width: 100%;
+	text-align: center;
  
-	margin-right: 12px;
+	// margin-right: 12px;
  }
  
  .buton-foot-input {
@@ -29,6 +31,8 @@
 	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
 	  background 250ms cubic-bezier(0.4, 0, 0.2, 1),
 	  fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	  margin-left: auto;
+	  margin-right: auto;
  }
  
  .buton-foot-input:hover {
@@ -54,12 +58,13 @@
 	background: #2f303a;
 	color: rgba(255, 255, 255, 0.6);
 	margin-top: 20px;
+	margin-bottom: 20px;
  }
  
  .form-foot {
-	display: flex;
-	align-items: flex-end;
-	margin-left: auto;
+	display: block;
+	// align-items: flex-end;
+	// margin-left: auto;
  }
  
  .form-foot__label {
@@ -71,6 +76,9 @@
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: #ffffff;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
  }
  
  .icon-send {
