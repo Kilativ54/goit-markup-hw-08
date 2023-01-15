@@ -535,6 +535,11 @@ header {
     margin-top: 0;
   }
 }
+@media screen and (min-width: 1200px) {
+  .foot-two__tytle {
+    text-align: initial;
+  }
+}
 
 .foot-main {
   background: rgb(47, 48, 58);
@@ -1770,7 +1775,9 @@ a {
 }
 @media screen and (min-width: 1200px) {
   .form-foot__label {
-    margin-left: auto;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: initial;
   }
 }
 
