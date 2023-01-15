@@ -3,6 +3,11 @@
 	align-items: baseline;
 	width: 100%;
 	height: auto;
+	@media screen and (min-width: 768px){
+		display: flex;
+		flex-wrap: wrap;
+		text-align: center;
+	  }
  }
  
  .foot-two__list {
@@ -87,12 +92,19 @@
 	text-align: center;
 	margin-top: 60px;
 	margin-bottom: 20px;
+	@media screen and (min-width: 768px){
+	margin-top: 0;
+	  }
  }
  
  .foot-main {
 	padding-top: 60px;
 	padding-bottom: 60px;
 	background: rgba(47, 48, 58, 1);
+	@media screen and (min-width: 768px){
+		display: flex;
+		flex-wrap: wrap;
+			  }
 	
  }
  
@@ -144,3 +156,4 @@
  .nav-main__ul.adr .item:not(:last-child){
 	margin-bottom: 12px;
  }
+

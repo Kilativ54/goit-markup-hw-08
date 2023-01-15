@@ -409,6 +409,16 @@ header {
   width: 100%;
   height: auto;
 }
+@media screen and (min-width: 768px) {
+  .foot-together {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    text-align: center;
+  }
+}
 
 .foot-two__list {
   display: -webkit-box;
@@ -507,11 +517,25 @@ header {
   margin-top: 60px;
   margin-bottom: 20px;
 }
+@media screen and (min-width: 768px) {
+  .foot-two__tytle {
+    margin-top: 0;
+  }
+}
 
 .foot-main {
   padding-top: 60px;
   padding-bottom: 60px;
   background: rgb(47, 48, 58);
+}
+@media screen and (min-width: 768px) {
+  .foot-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 .foot-main__adress {
@@ -1574,6 +1598,17 @@ a {
   width: 100%;
   text-align: center;
 }
+@media screen and (min-width: 768px) {
+  .foot-input-line {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 
 .buton-foot-input {
   width: 200px;
@@ -1638,9 +1673,36 @@ a {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+@media screen and (min-width: 768px) {
+  .form-foot__mail {
+    width: 450px;
+  }
+}
 
 .form-foot {
   display: block;
+}
+@media screen and (min-width: 768px) {
+  .form-foot {
+    margin-top: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .form-foot__label {
