@@ -7,7 +7,14 @@
 		display: flex;
 		flex-wrap: wrap;
 		text-align: center;
-	  }
+	}	
+ }
+
+ .foot-main .foot-together{
+	@media screen and (min-width: 1200px){
+		padding-top: 60px;
+		padding-bottom: 60px;
+	 }
  }
  
  .foot-two__list {
@@ -28,6 +35,11 @@
 	text-align: center;
 	margin-right: auto;
 	margin-left: auto;
+	@media screen and (min-width: 1200px){
+	margin-left: auto;
+	margin-right: auto;
+	  }
+
 }
  
  .foot-two__link {
@@ -98,13 +110,13 @@
  }
  
  .foot-main {
-	padding-top: 60px;
-	padding-bottom: 60px;
+	// padding-top: 60px;
+	// padding-bottom: 60px;
 	background: rgba(47, 48, 58, 1);
 	@media screen and (min-width: 768px){
 		display: flex;
 		flex-wrap: wrap;
-			  }
+					  }
 	
  }
  
@@ -151,6 +163,9 @@
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
+	@media screen and (min-width: 1200px){
+	margin:0;
+	  }
  }
 
  .nav-main__ul.adr .item:not(:last-child){

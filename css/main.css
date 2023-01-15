@@ -420,6 +420,13 @@ header {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .foot-main .foot-together {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
 .foot-two__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -441,6 +448,12 @@ header {
   text-align: center;
   margin-right: auto;
   margin-left: auto;
+}
+@media screen and (min-width: 1200px) {
+  .foot-two {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .foot-two__link {
@@ -524,8 +537,6 @@ header {
 }
 
 .foot-main {
-  padding-top: 60px;
-  padding-bottom: 60px;
   background: rgb(47, 48, 58);
 }
 @media screen and (min-width: 768px) {
@@ -587,6 +598,11 @@ header {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  .foot {
+    margin: 0;
+  }
 }
 
 .nav-main__ul.adr .item:not(:last-child) {
@@ -1259,6 +1275,8 @@ a {
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 @media screen and (min-widht: 480px) {
   .container,
@@ -1609,6 +1627,15 @@ a {
             flex-direction: column;
   }
 }
+@media screen and (min-width: 1200px) {
+  .foot-input-line {
+    width: 358px;
+    margin-right: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
 
 .buton-foot-input {
   width: 200px;
@@ -1678,6 +1705,12 @@ a {
     width: 450px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .form-foot__mail {
+    width: 100%;
+    margin-bottom: 0;
+  }
+}
 
 .form-foot {
   display: block;
@@ -1704,6 +1737,23 @@ a {
     margin-right: auto;
   }
 }
+@media screen and (min-width: 1200px) {
+  .form-foot {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    margin: 0;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
 
 .form-foot__label {
   font-family: "Roboto", "Sans-serif";
@@ -1717,6 +1767,11 @@ a {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+}
+@media screen and (min-width: 1200px) {
+  .form-foot__label {
+    margin-left: auto;
+  }
 }
 
 .icon-send {

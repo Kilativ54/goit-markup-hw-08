@@ -13,6 +13,9 @@ $breakpoint: (
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
+  padding-top:60px;
+  padding-bottom:60px;
+
 //   phone screen 450px & >
   @media screen and (min-widht: 480px){
 	max-width:450px;
