@@ -1,12 +1,12 @@
-.benefits {
-	padding-top: 60px;
-	padding-bottom: 60px;
-	@media screen and (min-width: 1200px){
-	padding-top: 94px;
-	padding-bottom: 94px;
-		 }
+// .benefits {
+// 	padding-top: 60px;
+// 	padding-bottom: 60px;
+// 	@media screen and (min-width: 1200px){
+// 	padding-top: 94px;
+// 	padding-bottom: 94px;
+// 		 }
 
- }
+//  }
  .container-benefits > .nav-main__ul {
 	display: block;
 	@media screen and (min-width: 768px){
@@ -20,6 +20,14 @@
 // 	margin-right: 30px;
 //  }
  
+.nav-main__ul> .atim:not(:last-child) {
+	margin-bottom: 30px;
+	@media screen and (min-width: 1200px){
+	margin-bottom: 0;
+	  }
+	}
+ 
+
  .nav-main__ul > .atim {
 	width: 100% ;
 	@media screen and (min-width: 768px){
@@ -29,20 +37,26 @@
 		&:nth-child(1){
 			margin-left: 0;
 		};
+		&:nth-child(4){
+			margin-bottom: 0;
+		};
 		&:nth-child(3){
 			margin-left: 0;
+			margin-bottom: 0;
 		};
 		 }
 		 @media screen and (min-width: 1200px){
+			margin-bottom: 0;
+			&:nth-child(3){
+				margin-left: 30px;
+			};
 			width: calc((100% - 120px) / 4);
 					 &:first-child {
 		margin-left: 0;
-	 }
-			 }
+	 };
+				 }
 		 }
-		 .nav-main__ul> .atim:not(:last-child) {
-			margin-bottom: 30px;
-		 }
+		 
  .container.container-benefits .atim__div{
 	width: 100%;
 	height: auto;

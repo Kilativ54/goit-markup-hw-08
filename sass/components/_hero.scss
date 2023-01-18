@@ -1,5 +1,6 @@
 .hero {
-
+padding-left: 15px;
+padding-right: 15px;
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -28,8 +29,8 @@
 	text-align: center;
 	padding-bottom: 118px;
 	padding-top: 118px;
-	padding-left: 60px;
-	padding-right: 60px;
+	// padding-left: 60px;
+	// padding-right: 60px;
 	@media screen and (min-width: 768px){
 		background-image: linear-gradient(
 		 to right,
