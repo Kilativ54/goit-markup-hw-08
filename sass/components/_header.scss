@@ -297,6 +297,9 @@ font-size: 34px;
 line-height: 1.18;
 letter-spacing: 0.02em;
 color: #2196F3;
+@media (max-width: 479px) {
+      font-size: 32px;
+  }
 }
 .mob-conection-tel{
 	margin-bottom: 32px;  
@@ -331,6 +334,9 @@ font-size: 18px;
 line-height: 1.22;
 letter-spacing: 0.02em;
 color: #2196F3;
+@media (max-width: 479px) {
+  font-size: 12px;
+  }
 }
 
 .mob-social-item:not(:last-child){

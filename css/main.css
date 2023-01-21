@@ -434,6 +434,11 @@ header {
   letter-spacing: 0.02em;
   color: #2196F3;
 }
+@media (max-width: 479px) {
+  .nav-main__contact.phone {
+    font-size: 32px;
+  }
+}
 
 .mob-conection-tel {
   margin-bottom: 32px;
@@ -467,6 +472,11 @@ header {
   line-height: 1.22;
   letter-spacing: 0.02em;
   color: #2196F3;
+}
+@media (max-width: 479px) {
+  .mob-social-item .social-link {
+    font-size: 12px;
+  }
 }
 
 .mob-social-item:not(:last-child) {
@@ -1475,6 +1485,12 @@ a {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
+@media (max-width: 479px) {
+  .modal {
+    width: 290px;
+    height: 609px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .modal {
     width: 528px;
@@ -1549,6 +1565,11 @@ a {
   letter-spacing: 0.03em;
   color: #212121;
 }
+@media (max-width: 479px) {
+  .modal-form__title {
+    font-size: 16px;
+  }
+}
 
 .button-modal {
   min-width: 200px;
@@ -1613,6 +1634,11 @@ a {
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
+}
+@media (max-width: 479px) {
+  .modal-form__textarea {
+    height: 100px;
+  }
 }
 
 .input-line {
